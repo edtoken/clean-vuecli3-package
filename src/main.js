@@ -1,8 +1,7 @@
-import Vue from 'vue'
-import App from './App.vue'
+import ComponentA from './ComponentA';
+import ComponentB from './ComponentB';
 
-Vue.config.productionTip = false
-
-new Vue({
-  render: h => h(App),
-}).$mount('#app')
+export {
+    ComponentA,
+    ComponentB,
+};
